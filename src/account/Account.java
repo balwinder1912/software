@@ -13,7 +13,7 @@ public class Account {
 
     
         private double balance;
-        private double interestRate=0.23;
+        private double interestRate=3;
         private String user;
  
      /**constructor that takes the initial balance

@@ -17,9 +17,16 @@ public class AccountTester {
         Account ac[]=new Account[500];
         
         System.out.println("Please enter the amount by which you want to open an account:");
+       
         
         Scanner sc=new Scanner(System.in);
         double bal=sc.nextDouble();
+        if(bal<500){
+            System.out.println("invalid");
+        }
+        else{
+            System.out.println("account created");
+        }
         
         System.out.println("Please enter the unique user name:");
         sc.nextLine();
